@@ -1,0 +1,134 @@
+﻿<html>
+
+<head>
+
+    <link href="style.css" rel="stylesheet" />
+
+    <meta charset="utf-8" />
+    
+    <script lang="JavaScript">
+    
+    	function calculateBags(frm){
+    		validateInput(frm);
+			var holeSize  = frm.sizeOfHole.value
+			var holeDepth = frm.depthOfHole.value
+    
+    
+			var bags = 0
+    
+			bags = (holeSize/6) * holeDepth
+    
+			frm.numberOfBags.value = bags.toFixed(0)
+    }
+    
+    	function validateInput(frm){
+    		if (frm.sizeOfHole.value =="" && frm.depthOfHole.value == "") {
+		    	alert("Enter valid numbers for both SIZE and DEPTH of the hole!");
+		    	frm.sizeOfHole.focus();
+		    	return false;
+	    	}
+
+	    	if (frm.sizeOfHole.value == "") {
+		    	alert("Enter a valid number for the Square Footage!");
+		    	frm.sizeOfHole.focus();
+		    	return false;
+	    	}
+	    	
+	    	if (frm.depthOfHole.value == "") {
+		    	alert("Enter a valid number for the Depth!");
+		    	frm.depthOfHole.focus();
+		    	return false;
+	    	}
+	    	
+	    	return true;
+    	}
+    
+    
+    </script>
+
+   
+  
+    <title>Brick Pathway</title>
+</head>
+
+<body>
+ 
+    <div id="wrapper">
+    
+        <header>	Brick Pathway project	</header>
+
+        <nav>
+ 
+            <ul>
+
+                <li>	<a href="index.html">Home			</a>	</li><br>
+                <li>	<a href="gallery.html">Gallery		</a>	</li><br>
+                <li>	<a href="materials.html"> Materials	</a>	</li><br>
+                <li>	<a href="tools.html">Tools			</a>	</li><br>
+                <li>	<a href="calculator.html">Calculator</a>	</li><br>
+                <li>	<a href="contact.html">Contact Us	</a>	</li><br>
+
+            </ul>
+           
+        </nav>
+
+        <div id="contentBox" align="center" >
+
+            <h2>Bag Calculator</h2>
+            
+            <form action="calculator.html" method="post" accept-charset="utf-8">
+            	
+            	<table border="0px" cellpadding="10px" cellspacing="3px">
+            		<caption>Calculation is based for a standard 1/2 cubic feet paver base bags</caption>
+            		
+            		<thead>
+            			<tr>
+            				<th>Square Footage</th>
+            				<th>Depth</th>
+            			</tr>
+
+            			
+            			
+            		</thead>
+            		<tfoot>
+            			<tr>
+            				<td colspan="2" align="center">Calculation are estimate and may vary for each project. </td>
+            			</tr>
+            		</tfoot>
+            		<tbody>
+            			<tr>
+            				<td align="center">
+	            				<input type="number" name="sizeOfHole"  id="sizeOfHole" placeholder="feet">
+	            			</td>
+	            			<td align="center">
+	            				<input type="number" name="depthOfHole" id="depthOfHole" placeholder="inches">
+            				</td>
+            			</tr>
+            			
+            			<tr>
+							<td colspan="2" align="center">
+								Bags: <input type="text" name="numberOfBags" id="numberOfBags" border="2px">
+							</td>
+            			</tr>
+            			
+            			<tr>
+            				<td colspan="2" align="center">
+	            				<input style="background-color: #5A7324; border-color: #90544A; color: #ffffff; " type="button" name="Button" value="Calculate # of Bags" onclick="calculateBags(this.form)">
+            				</td>
+            			</tr>
+            			
+
+            		
+            	</table>
+            	
+            </form>
+			
+		</div>
+
+        <footer>
+            <a href="mailto:dogras@dupage.edu">Contact</a> me for details about the project.
+        </footer>
+
+    </div>
+</body>
+</html>

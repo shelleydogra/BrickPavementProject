@@ -1,0 +1,219 @@
+﻿
+/*
+    COLORS
+    ******
+    
+DARK GREEN       --> #5A7324
+VERY LIGHT GREEN --> #CCCCB8
+LIGHT BRICK      --> #A88680
+MEDIUM BRICK     --> #886E68
+HARD BRICK       --> #90544A
+
+*/
+
+
+body
+{
+
+   	background-image: url(grass.jpg);
+   	
+   	background-size:25%;
+    
+    
+    /* background-color: #CCCCB8; */
+    background-color: #f2eab7;
+    
+    font-family:Arial, 'Times New Roman', Verdana;
+    color:black;
+}
+
+header {
+    text-align:center;
+    color: #5b7424;
+    font-size: 48px;
+    text-transform: uppercase;
+    text-shadow: 2px 3px 2px #876c66;
+    padding: 25px 0px;
+    background-color: #f2eab7;
+    background: -webkit-radial-gradient(#ffffff 0%, #f2eab7 100%);
+    background: radial-gradient(#ffffff 0%, #f2eab7 100%);
+    border-bottom: 5px solid #5b7424;
+}
+    header img {
+        height: auto;
+        width: auto;
+    }
+
+#wrapper {
+   
+    /* background-color: #8f5348; */
+    background-image: url(brick_nav.jpg);
+    background-size: 20%;
+    margin-top:1%;
+    margin-left:3%;
+    margin-right:3%;
+    border:3px ridge #5b7424;
+   
+    
+}
+
+#contentBox {
+    padding-top:10px;
+    padding-bottom:30px;
+    /*padding-left:10px;
+    padding-right:70px;*/
+    padding-left:40px;
+    padding-right:40px;
+
+	background: -webkit-radial-gradient(#ffffff 0%, #f2eab7 100%);	
+	background: radial-gradient(#ffffff 0%, #f2eab7 100%);
+    margin-left:175px;
+    margin-right:0px;
+    background-color:white;
+    color:#000000;
+    
+    min-height: 700px;
+
+    border-left:5px solid #5A7324;
+}
+    #contentBox p {
+        max-width: 600px;
+        padding:10px 10px 10px 10px;
+    }
+
+
+.content {
+	border: 1px dotted black;
+	padding: 30px;
+}
+
+h1 {
+    color: #5b7424;
+    text-align: center;
+}
+
+h2 {
+    text-align:center;
+    background-color: #A88680;
+    background: -webkit-radial-gradient(#ffffff 0%, #A88680 80%);	
+	background: radial-gradient(#ffffff 0%, #A88680 80%);
+    font-size: 1.6em;
+    padding: 5px 5px 0 5px;
+    text-transform: uppercase;
+    border-bottom: 5px solid #5A7324;    
+    clear: right;
+}
+p {
+	margin-bottom: 5px;
+	color: black;
+	font-style: italic;
+}
+
+nav {
+    max-width: 175px;
+    float: left;
+    /* background-image: url(brick_nav.jpg); */  
+    min-height: 400px;
+    padding-top: 20px;
+}
+
+    nav a {
+        text-decoration: none;
+        font-size:24px;
+    }
+
+        nav a:link {
+            color:#5b7424;
+            text-shadow: 2px 3px 2px white;
+            
+        }
+        nav a:visited {
+            color: #5A7324;
+            text-shadow: 2px 4px 2px black;
+        }
+        nav a:hover {
+            color:#ededed;
+            text-shadow:1px 2px 1px black
+            font-size: 26px;
+            background-color: #5b7424;
+        }
+
+    nav ul {
+        list-style-type: none;
+    }
+    
+
+.contentBox img {
+	
+	width: 30%; height: 25%; 
+
+	max-height: 150px;
+	max-width: 225px;
+ 
+}
+
+footer {
+    text-align: center;
+    background-color: #886e68;
+}
+
+    footer a {
+        text-decoration: none;
+        font-size: 20px;
+    }
+        footer a:link {
+            color: blue;
+        }
+        footer a:visited {
+            color: pink;
+        }
+        footer a:hover {
+            color: white;
+            background-color: #5b7424;
+        }
+        
+.gallery {
+	text-align: center;
+}
+
+.gallery img {
+	height: 175px;
+	width: 235px;
+}
+
+.floatRight {
+    float: right;
+}
+.floatLeft {
+    float: left;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+caption {
+	text-transform: uppercase;
+}
+table tr:td {
+	height: 50px;
+}
+table thead {
+	text-transform: uppercase;
+}
+
+table img{
+	height: 125px;
+	width: 150px;
+}
+
+.galleryImage img {
+	width:300px;
+	height: 200px;
+}
+
+
+

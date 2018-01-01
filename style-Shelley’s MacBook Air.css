@@ -1,0 +1,148 @@
+﻿
+/*
+    COLORS
+    ******
+    
+DARK GREEN       --> #5A7324
+VERY LIGHT GREEN --> #CCCCB8
+LIGHT BRICK      --> #A88680
+MEDIUM BRICK     --> #886E68
+HARD BRICK       --> #90544A
+
+*/
+
+
+body
+{
+
+   	background-image: url(grass.jpg); 
+   	background-size:20%;
+    background-repeat:repeat-y;
+    background-color: #5A7324;
+
+    font-family:Arial, 'Times New Roman', Verdana;
+    color:black;
+}
+
+
+header {
+    text-align:center;
+  /*background-image:url(headertitle.jpg);*/
+}
+    header img {
+        height: auto;
+        width: auto;
+    }
+
+#wrapper {
+   
+    background-color: #8f5348;
+    margin-top:1%;
+    margin-left:5%;
+    margin-right:5%;
+    opacity:0.85;
+    
+    
+}
+
+#contentBox {
+    padding-top:10px;
+    padding-bottom:30px;
+    /*padding-left:10px;
+    padding-right:70px;*/
+    padding-left:40px;
+    padding-right:40px;
+
+    margin-left:175px;
+    margin-right:25px;
+    background-color:#f2eab7;
+    color:#000000;
+
+    border-left:5px solid #5A7324;
+}
+    #contentBox p {
+        max-width: 600px;
+        padding:10px 10px 10px 10px;
+    }
+
+
+h1 {
+    color: #5b7424;
+    text-align: center;
+}
+
+h2 {
+    text-align:center;
+    background-color: #A88680;
+    font-size: 1.2em;
+    padding: 5px 5px 0 5px;
+    text-transform: uppercase;
+    border-bottom: 5px solid #5A7324;    
+    clear: right;
+}
+
+nav {
+    width: 175px;
+    float: left;
+    background-image: url(brick_nav.jpg);
+    min-height: 400px;
+    padding-top: 20px;
+}
+
+    nav a {
+        text-decoration:none;
+        
+        font-size:20px;
+    }
+
+        nav a:link {
+            color: #6d423a;
+            
+        }
+        nav a:visited {
+            color: #886E68;
+        }
+        nav a:hover {
+            color:white;
+            font-size: 22px;
+            background-color: #5b7424;
+        }
+
+    nav ul {
+        list-style-type: none;
+    }
+
+#contentBox img {
+   
+   /*  width: 300px ; height:200px; */
+   
+   width: 35%; height: 25%;
+    
+}
+
+footer {
+    text-align: center;
+    background-color: #886e68;
+}
+
+    footer a {
+        text-decoration: none;
+        font-size: 20px;
+    }
+        footer a:link {
+            color: blue;
+        }
+        footer a:visited {
+            color: pink;
+        }
+        footer a:hover {
+            color: white;
+            background-color: #5b7424;
+        }
+
+.floatRight {
+    float: right;
+}
+.floatLeft {
+    float: left;
+}
