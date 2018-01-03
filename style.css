@@ -12,6 +12,21 @@ HARD BRICK       --> #90544A
 */
 
 
+/* Override Bootstrap */
+
+.jumbotron {
+	background-color: #CCCCB8;
+	text-align: center;
+	color: #5A7324;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
 body
 {
 
