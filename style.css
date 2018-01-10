@@ -12,6 +12,18 @@ HARD BRICK       --> #90544A
 */
 
 
+/* Override Bootstrap */
+
+.jumbotron {
+	background-color: #CCCCB8;
+	text-align: center;
+	color: #5A7324;
+	text-transform: uppercase;
+}
+
+
+
+
 body
 {
 
@@ -143,6 +155,7 @@ nav {
     }
     
 
+
 .contentBox img {
 	
 	width: 30%; height: 25%; 
@@ -201,6 +214,12 @@ caption {
 table tr:td {
 	height: 50px;
 }
+
+table a:hover {
+	background-color: #A88680;
+	
+}
+
 table thead {
 	text-transform: uppercase;
 }
